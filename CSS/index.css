@@ -1,0 +1,123 @@
+body {
+    font-family: helvetica,Arial, sans-serif;
+	font-size: 100%;
+	line-height: 1.5; /*-------PRECISA DE REVISÃO---------*/
+}
+.logo_acao_solidaria_menu {
+	width: 10%;
+	height: 100%;
+	position: absolute;
+	left: 3em;	
+}
+#menu {
+    width: 80%;
+    height: 6.7em;
+    font-size: 1.2em;
+    font-family: inherit; 
+	list-style: none;
+	float: left;
+	padding: 0 0 0 20%;
+	background-color: #000000;
+}
+#menu ul li { 
+	display: inline-block;
+}
+#menu ul li a {
+	padding: 2.5em ;
+	box-sizing: border-box;
+	display: inline-block;
+	/*Visual do Link*/
+	background-color: #000000;
+	color: #FFFFFF;
+	text-decoration: none;
+	border-bottom: 3px solid #000000;
+
+}
+#menu ul li a:hover {
+	background-color: #FFFFFF;
+	color:#000000;
+	border-bottom: .3em solid #FFFFFF;
+}
+/*figure .img_fixa {
+    width: 100%;
+    clip: rect(0, 0, 200000px, 0);
+    
+}*/
+.icones_social_midia {
+    width: 100%;
+    height: 3em;
+    background-color: orange;
+}
+.icones_social_media li {
+	display: inline-block;
+}
+.icones_social_media a {
+	background-color: orange;
+}
+main {
+    width: 100%;
+    height: 50em;
+    position: absolute;
+    background-color: rgb(52, 189, 194);
+}
+.galeria_fotos {
+    width: 100%;
+    height: 30em;
+    background-color: aquamarine;
+}
+/* Notícias */
+h2 { 
+    font-family: inherit;
+    font-size: 1rem;
+    font-weight: bolder;
+    position: relative;
+    margin-left: -1em;
+
+}
+cite {
+    font-family: inherit;
+    font-style: italic;
+    font-size: .5em;
+    position: relative;
+    margin-left: -1.9em;
+}
+.area-noticia_001 {
+    width: 100%;
+    height: 20em;
+    position: relative;
+    background-color: rgb(88, 88, 88);
+}
+.img-noticia_001 { /*---- Ajeitar ----*/
+    width: 60%;
+    height: 60%;
+    margin-top: 20em; 
+    position: relative;
+    box-sizing: border-box;
+    background-color: rgb(238, 23, 130); 
+}
+.txt-noticia_001 {
+    width: 30em;
+    height: 13em;
+    box-sizing: border-box;
+    position: relative;
+    margin: 0 40em;
+    padding: 1em;
+    font-family: inherit;
+    font-size: 1rem;
+    text-align: justify;
+    background-color: #FFFFFF;
+}
+.linha_txt_vertical-001 {
+    width: .5em;
+    height: 5em;
+    margin-left: 1em;
+    position: relative;
+    background-color: black;
+}
+footer {
+    width: 100%;
+    height: 4em;
+    font-family: inherit;
+    color: white;
+    background-color: black;
+}
