@@ -38,11 +38,11 @@ body {
 	color:#000000;
 	border-bottom: .3em solid #FFFFFF;
 }
-/*figure .img_fixa {
+figure {
     width: 100%;
-    clip: rect(0, 0, 200000px, 0);
-    
-}*/
+    height: auto;
+    background-image: url(../img/cozinha_sertao.jpg);
+}
 .icones_social_midia {
     width: 100%;
     height: 3em;
@@ -60,7 +60,7 @@ main {
     position: absolute;
     background-color: rgb(52, 189, 194);
 }
-.galeria_fotos {
+.galeria_fotos { /*procurar saber como deixar para abrir por último*/
     width: 100%;
     height: 30em;
     background-color: aquamarine;
@@ -92,8 +92,9 @@ cite {
     height: 60%;
     margin-top: 20em; 
     position: relative;
+    
     box-sizing: border-box;
-    background-color: rgb(238, 23, 130); 
+    background-color: #000000;
 }
 .txt-noticia_001 {
     width: 30em;
