@@ -38,7 +38,7 @@ body {
 	color:#000000;
 	border-bottom: .3em solid #FFFFFF;
 }
-figure {
+.img_fixa {
     width: 100%;
     height: auto;
     background-image: url(../img/cozinha_sertao.jpg);
