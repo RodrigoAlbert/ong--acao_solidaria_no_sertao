@@ -52,23 +52,24 @@ a:link {
     color: #FFFFFF;
     text-align: center;
     position: absolute;
-    top: 41em;
+    top: 40em;
     left: 65em;
     box-sizing: border-box;
 }
 .link_foto_fixa--monique_karla a:link {
     color: rgb(184, 184, 184);
 }
-.link_foto_fixa--monique_karla a:up {
-    color: #FFFFFF;
-    font-size: inherit;
-    text-decoration: none;
+
+.link_foto_fixa--monique_karla a:visited {
+    color: rgb(184, 184, 184);
 }
 .link_foto_fixa--monique_karla a:hover {
     color: #FFFFFF;
-    
     text-decoration: none;
     text-shadow: fuchsia;
+}
+.link_foto_fixa--monique_karla a:focus {
+    color: #FFFFFF;
 }
 .icones_social_midia {
     width: 100%;
