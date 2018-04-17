@@ -43,7 +43,7 @@ a:link {
     height: auto;
     display: block;
 }
-/* Link da fotógrafa */
+/* Link da fotógrafa na foto fixa */
 .link_foto_fixa--monique_karla {
     width: 13em;
     height: 1.5em;
@@ -65,9 +65,34 @@ a:link {
 .link_foto_fixa--monique_karla a:hover {
     color: #FFFFFF;
     text-decoration: none;
-    text-shadow: fuchsia;
 }
 .link_foto_fixa--monique_karla a:focus {
+    color: #FFFFFF;
+}
+/* Link da fotógrafa na área de notícia 001 */
+.link_img-noticia_001--monique_karla {
+    width: 13em;
+    height: 1.5em;
+    font-family: inherit;
+    font-size: .9rem;
+    color: #FFFFFF;
+    text-align: center;
+    position: absolute;
+    top: 22em;
+    left: 36em;
+    box-sizing: border-box;
+}
+.link_img-noticia_001--monique_karla a:link {
+    color: #FFFFFF;
+}
+.link_img-noticia_001--monique_karla a:visited {
+    color: #FFFFFF;
+}
+.link_img-noticia_001--monique_karla a:hover {
+    color: #000000;
+    text-decoration: none;
+}
+.link_img-noticia_001--monique_karla a:focus {
     color: #FFFFFF;
 }
 /* Redes sociais */
