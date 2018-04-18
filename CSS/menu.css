@@ -1,0 +1,24 @@
+#menu {
+    width: auto;
+    height: 6.7em;
+    font-size: 1.2em;
+    font-family: inherit; 
+	padding: 0 0 0 20%;
+	background-color: #000000;
+}
+#menu ul li { display: inline-block; }
+#menu ul li a {
+	padding: 2.5em ;
+	box-sizing: border-box;
+	display: inline-block;
+	/*Visual do Link*/
+	background-color: #000000;
+	color: #FFFFFF;
+	text-decoration: none;
+	border-bottom: 3px solid #000000;
+}
+#menu ul li a:hover {
+	background-color: #FFFFFF;
+	color:#000000;
+	border-bottom: .3em solid #FFFFFF;
+}
