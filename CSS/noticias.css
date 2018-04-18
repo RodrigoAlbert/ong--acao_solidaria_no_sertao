@@ -6,9 +6,8 @@ h2 {
     margin-left: -1em;
 
 }
-em {
-    font-style: italic;
-}
+em { font-style: italic; }
+
 cite { /* ---------------  ver se ta ajustado ou se terá que criar class  --------------- */
     font-family: inherit;
     font-style: italic;
