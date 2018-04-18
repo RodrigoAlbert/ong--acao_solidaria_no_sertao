@@ -1,3 +1,9 @@
+main {
+    width: 100%;
+    height: 76em;
+    position: absolute;
+    background-color: #FFFFFF;
+}
 h2 { 
     font-family: inherit;
     font-size: 1rem;
@@ -8,7 +14,7 @@ h2 {
 }
 em { font-style: italic; }
 
-cite { /* ---------------  ver se ta ajustado ou se terá que criar class  --------------- */
+cite {
     font-family: inherit;
     font-style: italic;
     font-size: .5em;
