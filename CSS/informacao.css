@@ -1,19 +1,11 @@
-/* Base total para informação */
-h1 {
-    font-family: inherit;
-    font-size: 1.5rem;
-    font-weight: bolder;
-}
-h3 {
-    font-family: inherit;
-    font-weight: bold;
-}
+
+/* Base para as seções de informação */
 .informacao {
     width: 100%;
     height: 110em;
-    position: absolute;
-    margin: 0;
-    background-color: tomato;
+    position: relative;
+    margin-top: 47em;
+    background-color: #ffff;
 }
 /* divisão de áreas -- COMO AJUDAR */
 .info_como_ajudar {
@@ -22,17 +14,15 @@ h3 {
     position: relative;
     box-sizing: border-box;
     padding: 1em 2em;
-    margin: 5% 20% 6% 30%;
-    font-family: inherit;
-    text-align: justify;
-    background-color:rgb(99, 184, 233);
+    margin: 5% 20% 6% 27%;
+    background-color:#ffff;
 }
 .linha_horizontal--txt_info_001 {
     width: 100%;
     height: .3em;
     top: .2em;
     position: relative;
-    background-color: black;
+    background-color: rgb(32, 32, 32);
 }
 /* divisão de áreas -- VOLUNTÁRIOS */
 .info_voluntarios {
@@ -41,17 +31,15 @@ h3 {
     position: relative;
     box-sizing: border-box;
     padding: 1em 2em;
-    margin: 5% 20% 6% 30%;
-    font-family: inherit;
-    text-align: justify;
-    background-color:rgb(99, 184, 233);
+    margin: 5% 20% 6% 27%;
+    background-color:#ffff;
 }
 .linha_horizontal--txt_info_002 {
     width: 100%;
     height: .3em;
     top: .2em;
     position: relative;
-    background-color: black;
+    background-color: rgb(32, 32, 32);
 }
 /* divisão de áreas -- DOAÇÃO */
 .info_doacao {
@@ -60,17 +48,15 @@ h3 {
     position: relative;
     box-sizing: border-box;
     padding: 1em 2em;
-    margin: 5% 20% 6% 30%;
-    font-family: inherit;
-    text-align: justify;
-    background-color:rgb(99, 184, 233);
+    margin: 5% 20% 0 27%;
+    background-color:#ffff;
 }
 .linha_horizontal--txt_info_003 {
     width: 100%;
     height: .3em;
     top: .2em;
     position: relative;
-    background-color: black;
+    background-color: rgb(32, 32, 32);
 }
 /* divisão de áreas -- DOAÇÃO DE MATERIAIS */
 .info_doacao_materiais {
@@ -79,15 +65,13 @@ h3 {
     position: relative;
     box-sizing: border-box;
     padding: 1em 2em;
-    margin: 5% 20% 6% 30%;
-    font-family: inherit;
-    text-align: justify;
-    background-color:rgb(99, 184, 233);
+    margin: 5% 20% 6% 27%;
+    background-color:#ffff;
 }
 .linha_horizontal--txt_info_004 {
     width: 100%;
     height: .3em;
     top: .2em;
     position: relative;
-    background-color: black;
+    background-color: rgb(32, 32, 32);
 }
